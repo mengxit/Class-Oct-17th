@@ -1,0 +1,29 @@
+---
+title: "Class Oct 17th"
+author: "Mengxi Tan"
+date: "10/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(googlesheets4)
+library(tidyverse)
+
+sheets_deauth() 
+```
+
+```{r chunk, echo = FALSE}
+
+download.file("https://docs.google.com/spreadsheets/d/e/2PACX-1vSaerGnn1tDQfgiyJRl7jnn1Au7Ev6Qt7BwMpl53ZgzAyMnANQfog9y4es4ZExlX5tjEgl0mPIyTGcP/pub?gid=480043959&single=true&output=csv", destfile = "trains.csv")
+```
+```{r} 
+#CONTROL + ALT + I 
+```
+
+
+
+
+
